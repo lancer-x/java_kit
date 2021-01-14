@@ -5,6 +5,8 @@ public class Person {
     private int age;
     private double height;
 
+    public String extra = "其他";
+
     public Person(String name, int age, double height) {
         this.name = name;
         this.age = age;
